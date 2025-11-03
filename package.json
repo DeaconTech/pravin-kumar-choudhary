@@ -1,0 +1,29 @@
+{
+  "name": "youtube-tech-content-generator",
+  "version": "1.0.0",
+  "description": "Generate and post technology content to YouTube with ISO standards and trending tags",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "generate": "node src/generate-content.js",
+    "upload": "node src/upload-video.js",
+    "tags": "node src/trending-tags.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "youtube",
+    "content-generation",
+    "technology",
+    "trending-tags",
+    "iso-standards"
+  ],
+  "author": "pravin-kumar-choudhary",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^128.0.0",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.7",
+    "openai": "^4.67.0"
+  }
+}
